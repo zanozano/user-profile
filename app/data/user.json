@@ -1,0 +1,18 @@
+{
+    "header": {
+        "profileImage": "https://via.placeholder.com/150",
+        "name": "Cristobal Manzano",
+        "username": "@zanozano"
+    },
+    "about": {
+        "description": "Soy un Product Designer con más de 8 años de experiencia en el diseño de UX/UI y desarrollo frontend. Disfruto creando interfaces intuitivas y visualmente atractivas que mejoran la experiencia del usuario."
+    },
+    "interests": [
+        "Diseño de Interfaces",
+        "Desarrollo Frontend",
+        "Experiencia de Usuario",
+        "Viajar",
+        "Tecnología",
+        "Fotografía"
+    ]
+}
