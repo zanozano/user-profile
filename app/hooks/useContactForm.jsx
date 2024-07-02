@@ -1,31 +1,22 @@
 import { useState } from 'react';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 
 export const useContactForm = () => {
-    const [formData, setFormData] = useState({
+
+    const initialFormData = {
         name: '',
         email: '',
         message: ''
-    });
+    };
+
+    const [formData, setFormData] = useState(initialFormData);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        if (name === 'name') {
-            setFormData({
-                ...formData,
-                [name]: value.trim()
-            });
-        } else if (name === 'email') {
-            setFormData({
-                ...formData,
-                [name]: value
-            });
-        } else {
-            setFormData({
-                ...formData,
-                [name]: value.trim()
-            });
-        }
+        setFormData(prevState => ({
+            ...prevState,
+            [name]: value.trim()
+        }));
     };
 
     const handleSubmit = async (e) => {
@@ -67,12 +58,8 @@ export const useContactForm = () => {
             showConfirmButton: false,
             timer: 1500
         });
-
-        setFormData({
-            name: '',
-            email: '',
-            message: ''
-        });
+        console.log(formData)
+        setFormData(initialFormData);
     };
 
     return {

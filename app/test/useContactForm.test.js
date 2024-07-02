@@ -2,7 +2,7 @@ import { renderHook, act } from '@testing-library/react-hooks';
 import { useContactForm } from '../hooks/useContactForm';
 
 describe('useContactForm', () => {
-    it('La prueba debería verificar que el manejo del envío del formulario funcione correctamente.', async () => {
+    it('debería manejar el envío del formulario correctamente', async () => {
         const { result } = renderHook(() => useContactForm());
 
         act(() => {
