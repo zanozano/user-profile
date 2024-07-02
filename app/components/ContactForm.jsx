@@ -1,32 +1,9 @@
 "use client";
-import { useState } from 'react';
 import styles from '../styles/page.module.css';
-
+import { useContactForm } from '../hooks/useContactForm';
 
 export const ContactForm = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: ''
-    });
-
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value
-        });
-    };
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        console.log(formData);
-        setFormData({
-            name: '',
-            email: '',
-            message: ''
-        });
-    };
+    const { formData, handleChange, handleSubmit } = useContactForm();
 
     return (
         <div className={styles.form}>
