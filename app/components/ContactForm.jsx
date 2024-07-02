@@ -65,7 +65,7 @@ export const ContactForm = () => {
                     required
                 />
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit">Enviar</button>
         </form>
     );
 };

@@ -1,10 +1,10 @@
 Requisitos
 HTML y CSS:
 - Maquetar una página web que incluya:
-  - Una cabecera con el nombre del usuario y una imagen de perfil.
-  - Una sección de "Sobre mí" con una breve descripción del usuario.
-  - Una lista de intereses del usuario.
-  - Un formulario de contacto con campos para nombre, email y mensaje.
+  X Una cabecera con el nombre del usuario y una imagen de perfil.
+  X Una sección de "Sobre mí" con una breve descripción del usuario.
+  X Una lista de intereses del usuario.
+  X Un formulario de contacto con campos para nombre, email y mensaje.
 - Utilizar CSS (sin frameworks como Bootstrap) para estilizar la página. Debe ser responsiva y verse bien en dispositivos móviles y de escritorio.
 
 React y Next.js 14:

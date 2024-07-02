@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles/page.module.css';
 import user from '../data/user.json';
 
