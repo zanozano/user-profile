@@ -14,7 +14,7 @@ x Implementar el formulario de contacto con validación básica y mostrar un men
 
 Extras (Plus):
 x Utilizar CSS Modules para el manejo de estilos.
-- Agregar animaciones o transiciones suaves para mejorar la experiencia del usuario.
+X Agregar animaciones o transiciones suaves para mejorar la experiencia del usuario.
 - Incluir tests básicos con Jest o Testing Library.
 
 Entregables

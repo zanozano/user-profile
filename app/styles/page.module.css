@@ -1,6 +1,7 @@
 .main {
   padding: 4rem;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .header {
@@ -148,6 +149,7 @@
       font-size: 1rem;
       height: 6.8rem;
       padding: 1rem;
+      resize: none;
     }
 
     & button {

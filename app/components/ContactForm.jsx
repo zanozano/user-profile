@@ -17,8 +17,7 @@ export const ContactForm = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder='Ingresa tu nombre'
-                        required
+                        placeholder='Ingresa tu nombre*'
                     />
                 </div>
                 <div>
@@ -29,8 +28,7 @@ export const ContactForm = () => {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder='Ingresa tu email'
-                        required
+                        placeholder='Ingresa tu email*'
                     />
                 </div>
                 <div>
@@ -40,8 +38,7 @@ export const ContactForm = () => {
                         name="message"
                         value={formData.message}
                         onChange={handleChange}
-                        placeholder='Ingresa tu mensaje'
-                        required
+                        placeholder='Ingresa tu mensaje*'
                     />
                 </div>
                 <button type="submit">Enviar</button>
