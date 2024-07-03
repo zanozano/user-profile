@@ -1,6 +1,11 @@
 # user-profile / Prueba Tecnica
 
+*** Esta rama esta limpia de Test ya que la dependencia de @testing-library/react-hooks causaba conflicto.
+
 Este proyecto es una prueba técnica desarrollada con Next.js 14 y React para la implementación de un front-end de un perfil de usuario. Se ha puesto un fuerte énfasis en mejorar la experiencia del usuario mediante un diseño de interfaz simple pero atractivo. Se implementaron CSS Modules para una gestión y escalabilidad eficiente de estilos. Además, se incluyó Framer Motion para la animación de carga de imágenes y Animate.css para la animación de carga de bloques de texto, enriqueciendo así la experiencia del usuario.
+
+![Descripción de la imagen](./public/example.png)
+
 
 ## Instalación y Ejecución
 
@@ -55,8 +60,3 @@ npm test
 
 - **eslint**: ^8
 - **eslint-config-next**: 14.2.4
-- **jest**: ^29.7.0
-- **@testing-library/jest-dom**: ^6.4.6
-- **@testing-library/react**: ^16.0.0
-- **@testing-library/react-hooks**: ^8.0.1
-- **jest-environment-jsdom**: ^29.7.0
