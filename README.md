@@ -24,7 +24,7 @@ Para levantar el proyecto localmente, sigue estos pasos:
    ```
 
    **Nota**: Para instalar las dependencias en esta rama, es necesario utilizar el comando `npm install --force` debido a que la dependencia `@testing-library/react-hooks` estaba causando conflictos. Esta rama está destinada a la revisión completa del código. Para una instalación limpia sin problemas de dependencias, utiliza la rama `no-test`.
-<br>
+
 3. **Ejecuta el proyecto en modo desarrollo:**
    ```bash
    npm run dev
