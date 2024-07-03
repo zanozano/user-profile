@@ -68,3 +68,7 @@ npm test
 - **@testing-library/react**: ^16.0.0
 - **@testing-library/react-hooks**: ^8.0.1
 - **jest-environment-jsdom**: ^29.7.0
+
+## Preview de la Web
+
+Puedes ver una vista previa del sitio web desplegado en Vercel en el siguiente enlace: [Web Preview](https://user-profile-psdytul13-zanozanos-projects.vercel.app/)
