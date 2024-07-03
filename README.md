@@ -1,8 +1,14 @@
 # user-profile / Prueba Tecnica
 
+**Nota:** Para instalar las dependencias en esta rama, es necesario utilizar el comando npm install --force debido a que la dependencia @testing-library/react-hooks estaba causando conflictos. Esta rama está destinada a la revisión completa del código. Para una instalación limpia sin problemas de dependencias, utiliza la rama no-test.
+
+
+
 Este proyecto es una prueba técnica desarrollada con Next.js 14 y React para la implementación de un front-end de un perfil de usuario. Se ha puesto un fuerte énfasis en mejorar la experiencia del usuario mediante un diseño de interfaz simple pero atractivo. Se implementaron CSS Modules para una gestión y escalabilidad eficiente de estilos. Además, se incluyó Framer Motion para la animación de carga de imágenes y Animate.css para la animación de carga de bloques de texto, enriqueciendo así la experiencia del usuario.
 
-## Instalación y Ejecución
+![Logo del proyecto](./public/example.png)
+
+# Instrucciones para levantar el proyecto localmente
 
 Para levantar el proyecto localmente, sigue estos pasos:
 
@@ -12,11 +18,13 @@ Para levantar el proyecto localmente, sigue estos pasos:
    cd user-profile
    ```
 
-2. **Instala las dependencias:**
+2. **Instala las dependencias:** 
    ```bash
-   npm install
+   npm install --force
    ```
 
+   **Nota**: Para instalar las dependencias en esta rama, es necesario utilizar el comando `npm install --force` debido a que la dependencia `@testing-library/react-hooks` estaba causando conflictos. Esta rama está destinada a la revisión completa del código. Para una instalación limpia sin problemas de dependencias, utiliza la rama `no-test`.
+<br>
 3. **Ejecuta el proyecto en modo desarrollo:**
    ```bash
    npm run dev
